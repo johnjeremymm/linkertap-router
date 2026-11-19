@@ -9,6 +9,10 @@
   ],
   "rewrites": [
     {
+      "source": "/@john/",
+      "destination": "https://john-sandy.vercel.app/"
+    },
+    {
       "source": "/@john/:path*",
       "destination": "https://john-sandy.vercel.app/:path*"
     }
