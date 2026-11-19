@@ -1,13 +1,16 @@
+
 {
   "redirects": [
-    { "source": "/@john", "destination": "/@john/", "permanent": false }
+    {
+      "source": "/@john",
+      "destination": "/@john/",
+      "permanent": false
+    }
   ],
   "rewrites": [
-{
-  "source": "/@john/:path*",
-  "destination": "https://john-sandy.vercel.app/:path*"
-},
-    { "source": "/", "destination": "https://MAIN-ACTUAL-URL.vercel.app/" },
-    { "source": "/:path*", "destination": "https://MAIN-ACTUAL-URL.vercel.app/:path*" }
+    {
+      "source": "/@john/:path*",
+      "destination": "https://john-sandy.vercel.app/:path*"
+    }
   ]
 }
